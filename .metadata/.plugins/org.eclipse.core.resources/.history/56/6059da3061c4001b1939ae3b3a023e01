@@ -61,8 +61,5 @@ public class ResponseEnvelope<T> {
 		this.response = response;
 	}
 
-	public static <T> ResponseEnvelope<T> of(T t) {
-		return new ResponseEnvelope<T>(t);
-	}
 
 }

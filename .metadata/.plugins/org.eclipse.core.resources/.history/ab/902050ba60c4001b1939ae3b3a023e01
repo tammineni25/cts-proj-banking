@@ -19,16 +19,6 @@ public class ResponseEnvelope<T> {
 		this.response = response;
 	}
 
-	public ResponseEnvelope( CoreError error, String errorMessage, T t) {
-		this.errorCode = error.getCode();
-		this.errorDescription = error.name();
-		this.errorMessage = errorMessage;
-		this.response = t;
-	}
-	public ResponseEnvelope(T t) {
-		this(CoreError.SUCCESS, null, t);
-	}
-
 	public int getErrorCode() {
 		return errorCode;
 	}
@@ -61,8 +51,5 @@ public class ResponseEnvelope<T> {
 		this.response = response;
 	}
 
-	public static <T> ResponseEnvelope<T> of(T t) {
-		return new ResponseEnvelope<T>(t);
-	}
 
 }

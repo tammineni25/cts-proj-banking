@@ -1,0 +1,29 @@
+package com.org.user.config;
+import org.springframework.http.*;
+
+public enum CoreError {
+	SUCCESS(0, HttpStatus.OK);
+	
+	private int code;
+	private HttpStatus status;
+	
+	
+	private CoreError(int code, HttpStatus status) {
+		this.code = code;
+		this.status = status;
+	}
+	public int getCode() {
+		return code;
+	}
+	public void setCode(int code) {
+		this.code = code;
+	}
+	public HttpStatus getStatus() {
+		return status;
+	}
+	public void setStatus(HttpStatus status) {
+		this.status = status;
+	}
+	
+	
+}
