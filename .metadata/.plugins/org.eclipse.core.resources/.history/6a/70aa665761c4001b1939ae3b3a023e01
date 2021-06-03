@@ -30,11 +30,11 @@ public class UserController {
 		}
 		User userObj = null;
 		userObj = service.saveUser(user);
-		return ResponseEnvelope.of(userObj);
+		return userObj;
 	}
 	
 	@PostMapping("/login")
-	public ResponseEnvelope<User> loginUser(@RequestBody User user) throws Exception {
+	public User loginUser(@RequestBody User user) throws Exception {
 		String tempUserName = user.getUserName();
 		String tempPassword = user.getPassword();
 		User userObj = null;
@@ -44,6 +44,6 @@ public class UserController {
 		if(userObj == null) {
 			throw new Exception("Wrong Credentials");
 		}
-		return ResponseEnvelope.of(userObj);
+		return userObj;
 	}
 }

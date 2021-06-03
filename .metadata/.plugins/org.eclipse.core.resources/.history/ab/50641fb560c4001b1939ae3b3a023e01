@@ -1,0 +1,8 @@
+package com.org.user.config;
+import org.springframework.http.*;
+
+public enum CoreError {
+	SUCCESS(0, HttpStatus.OK),
+	
+
+}
