@@ -20,7 +20,7 @@ public class UserController {
 	UserService service;
 	
 	@PostMapping("/registration")
-	public ResponseEnvelope<User> registerUser(User user) throws Exception {
+	public ResponseEnvelope<User> registerUser(@RequestBody User user) throws Exception {
 		String usrName = user.getUserName();
 		if(usrName != null && !"".equals(usrName)) {
 			User userObj = service.fetchUserByUserName(usrName);
