@@ -19,6 +19,7 @@
 	</section>
 	<section name="MavenModuleWizardParentPage">
 		<list key="moduleName">
+			<item value="Discovery"/>
 			<item value="Common"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -42,13 +43,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.Common"/>
+			<item value="org.Discovery"/>
 		</list>
 		<list key="groupId">
 			<item value="com.org.bankingmanagementsystem"/>
 		</list>
 		<list key="artifactId">
-			<item value="Common"/>
+			<item value="Discovery"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -69,8 +70,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="Common"/>
+			<item value="Discovery"/>
 			<item value="BankingManagementSystem"/>
+			<item value="Common"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

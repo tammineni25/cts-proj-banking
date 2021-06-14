@@ -1,9 +1,0 @@
-package com.org.user.config;
-
-public class ResponseEnvelope<T> {
-	private int errorCode;
-	private String errorDescription;
-	private String errorMessage;
-	private T response;
-
-}

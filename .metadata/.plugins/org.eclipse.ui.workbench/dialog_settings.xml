@@ -12,10 +12,10 @@
 			<item value="org.eclipse.ui.Basic"/>
 			<item value="org.eclipse.jdt.ui.java"/>
 			<item value="org.eclipse.jdt.ui.java/org.eclipse.jdt.debug.ui.java"/>
-			<item value="org.eclipse.m2e"/>
 			<item value="org.eclipse.pde.PDE"/>
 			<item value="org.eclipse.pde.userAssistance"/>
 			<item value="org.eclipse.wst.XMLCategory"/>
+			<item value="org.eclipse.ui.Examples"/>
 		</list>
 	</section>
 </section>
