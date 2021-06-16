@@ -68,5 +68,6 @@
 		<module>Loan</module>
 		<module>router</module>
 		<module>Discovery</module>
+		<module>common</module>
 	</modules>
 </project>

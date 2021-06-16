@@ -8,4 +8,11 @@
   <artifactId>User</artifactId>
   <name>User</name>
   <description>user details</description>
+  <dependencies>
+  <dependency>
+   <groupId>com.org.bankingmanagementsystem</groupId>
+    <artifactId>common</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </dependency>
+  </dependencies>
 </project>
