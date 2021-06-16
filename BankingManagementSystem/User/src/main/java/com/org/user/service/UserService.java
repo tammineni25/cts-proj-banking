@@ -8,7 +8,6 @@ import com.org.user.repository.UserRepository;
 
 @Service
 public class UserService {
-	
 	@Autowired 
 	UserRepository userRepo;
 	
@@ -21,5 +20,5 @@ public class UserService {
 	public User fetchUserByUserNameAndPassword(String userName, String password) {
 		return userRepo.findByUserNameAndPassword(userName, password);
 	}
-	
+
 }

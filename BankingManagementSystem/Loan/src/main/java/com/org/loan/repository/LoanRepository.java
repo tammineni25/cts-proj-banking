@@ -5,6 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import com.org.loan.model.Loan;
 @Repository
-public interface LoanRepository extends MongoRepository<Loan, Integer> {
+public interface LoanRepository extends MongoRepository<Loan, String> {
 	
 }
